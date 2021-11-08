@@ -4,9 +4,9 @@
     border: 0;
     outline: none;
     box-sizing: border-box;
-    
+  
     background: transparent;
-    
+  
     font-family: inherit;
     
     text-decoration: none;
@@ -28,15 +28,42 @@ a img {
   
 button, a {
     cursor: pointer;
-    color: inherit
 }
-  
-textarea {
-    resize: none
+
+section {
+    position: relative;
+    height: 100vh;
+    width: 100vw
 }
-  
-button, input, textarea, select {
-    appearance: none !important;
-    -webkit-appearance: none !important;
-    border-radius: 0
+
+#firstSection {
+    background-color: #006d77;
+}
+
+#secondSection {
+    background-color: #83c5be;
+}
+
+#thirdSection {
+    background-color: #ffddd2;
+}
+
+.button {
+position: absolute;
+right: 40px;
+bottom: 40px;
+height: 100px;
+width: 100px;
+}
+
+#firstButton {
+background-color: #e29578;
+}
+
+#secondButton {
+    background-color: #e6ccb2;
+}
+
+#thirdButton {
+    background-color: #b08968;
 }
